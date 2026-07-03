@@ -2,7 +2,6 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import Link from "next/link";
 
 const PRODUCTS = [
   {
@@ -130,9 +129,9 @@ export default function ProductCarousel() {
               </div>
 
               <div style={{ marginTop: "16px" }}>
-                <Link href={`/contact?product=${product.id}`} className="btn btn-primary">
-                  Inquire Store Availability
-                </Link>
+                <a href="tel:+918299174561" className="btn btn-primary">
+                  Call Now
+                </a>
               </div>
             </div>
           </div>

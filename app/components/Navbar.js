@@ -55,13 +55,13 @@ export default function Navbar() {
             );
           })}
           <li>
-            <Link 
-              href="/contact" 
+            <a 
+              href="tel:+918299174561" 
               className="nav-cta"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Get a Quote
-            </Link>
+              Call Now
+            </a>
           </li>
         </ul>
       </div>

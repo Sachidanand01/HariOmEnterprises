@@ -27,7 +27,7 @@ export default function Home() {
     "image": "https://hariomenterprises.in/images/ac_unit.png",
     "@id": "https://hariomenterprises.in/#store",
     "url": "https://hariomenterprises.in",
-    "telephone": "+919876543210",
+    "telephone": "+918299174561",
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
@@ -127,7 +127,7 @@ export default function Home() {
             </p>
             <div className="hero-ctas">
               <Link href="#products" className="btn btn-primary">Browse Catalog</Link>
-              <Link href="/contact" className="btn btn-secondary">Inquire Store</Link>
+              <a href="tel:+918299174561" className="btn btn-secondary">Call Now</a>
             </div>
 
             <div className="hero-stats">
