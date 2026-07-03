@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Hari Om Enterprises | Premium Electronics Shop in Delhi NCR",
-  description: "Authorized electronics dealer in Dwarka, New Delhi. Best prices on energy-efficient Air Conditioners, Smart TVs, Refrigerators, Room Heaters, and LED lighting.",
+  title: "Hari Om Enterprises | Premium Electronics Shop in Uttar Pradesh NCR",
+  description: "Authorized electronics dealer in Pura Mufti, Prayagraj. Best prices on energy-efficient Air Conditioners, Smart TVs, Refrigerators, Room Heaters, and LED lighting.",
 };
 
 export default function RootLayout({ children }) {

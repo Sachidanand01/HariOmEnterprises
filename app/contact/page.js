@@ -1,9 +1,9 @@
 import ContactForm from "../components/ContactForm";
 
 export const metadata = {
-  title: "Contact Us | Hari Om Enterprises - Electronics Store Dwarka",
-  description: "Get in touch with Hari Om Enterprises. Visit our Dwarka showroom, call us at +91 98765 43210, or send an inquiry for Air Conditioners, Smart TVs, Refrigerators, Heaters, and LED Bulbs.",
-  keywords: ["contact Hari Om Enterprises", "electronics store phone Delhi", "buy AC Dwarka", "Hari Om Enterprises location", "Delhi electronics dealer list"],
+  title: "Contact Us | Hari Om Enterprises - Electronics Store Pura Mufti",
+  description: "Get in touch with Hari Om Enterprises. Visit our Pura Mufti showroom, call us at +91 82991 74561, or send an inquiry for Air Conditioners, Smart TVs, Refrigerators, Heaters, and LED Bulbs.",
+  keywords: ["contact Hari Om Enterprises", "electronics store phone Uttar Pradesh", "buy AC Pura Mufti", "Hari Om Enterprises location", "Uttar Pradesh electronics dealer list"],
   alternates: {
     canonical: "https://hariomenterprises.in/contact",
   }
@@ -21,10 +21,10 @@ export default function Contact() {
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Main Market Road, Sector 5, Dwarka",
-      "addressLocality": "New Delhi",
-      "addressRegion": "Delhi",
-      "postalCode": "110075",
+      "streetAddress": "Nayaganj, Manauri Rd Pura Mufti",
+      "addressLocality": "Prayagraj",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "212208",
       "addressCountry": "IN"
     }
   };
@@ -41,7 +41,7 @@ export default function Contact() {
           <div className="section-header" style={{ marginBottom: "60px" }}>
             <h2>Get In Touch With Us</h2>
             <p>
-              Have a question about product pricing, brand discounts, energy ratings, or delivery schedules? 
+              Have a question about product pricing, brand discounts, energy ratings, or delivery schedules?
               Reach out to us and our representative will assist you.
             </p>
           </div>
@@ -50,7 +50,7 @@ export default function Contact() {
             {/* Contact Details & Map Column */}
             <div className="contact-info-panel">
               <h2>Store Information</h2>
-              <p>Feel free to visit our showroom in Dwarka, New Delhi. We have direct product demos for all appliances.</p>
+              <p>Feel free to visit our showroom in Pura Mufti, Prayagraj. We have direct product demos for all appliances.</p>
 
               <address className="contact-details">
                 <div className="contact-detail-item">
@@ -58,7 +58,7 @@ export default function Contact() {
                   <div className="contact-detail-text">
                     <h3>Showroom Address</h3>
                     <p>Main Market Road, Sector 5</p>
-                    <p>Dwarka, New Delhi, Delhi 110075, India</p>
+                    <p>Pura Mufti, Prayagraj, Uttar Pradesh 212208, India</p>
                   </div>
                 </div>
 
@@ -66,8 +66,7 @@ export default function Contact() {
                   <div className="contact-detail-icon">📞</div>
                   <div className="contact-detail-text">
                     <h3>Phone Numbers</h3>
-                    <p><a href="tel:+919876543210">+91 98765 43210</a></p>
-                    <p><a href="tel:+9101123456789">+91 011 2345 6789</a></p>
+                    <p><a href="tel:+919876543210">+91 82991 74561</a></p>
                   </div>
                 </div>
 
@@ -75,7 +74,7 @@ export default function Contact() {
                   <div className="contact-detail-icon">✉️</div>
                   <div className="contact-detail-text">
                     <h3>Email Address</h3>
-                    <p><a href="mailto:sales@hariomenterprises.in">sales@hariomenterprises.in</a></p>
+                    <p><a href="mailto:ashishssingh143@gmail.com">ashishssingh143@gmail.com</a></p>
                   </div>
                 </div>
 
@@ -93,12 +92,12 @@ export default function Contact() {
               <div className="contact-map-stub">
                 <p><strong>📍 Hari Om Enterprises Location map</strong></p>
                 <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", margin: "0 0 16px" }}>
-                  Located in the center of Dwarka, Delhi Sector 5 Market. Near Metro Station.
+                  Located in the center of Pura Mufti, Uttar Pradesh Sector 5 Market. Near Metro Station.
                 </p>
                 {/* Embed modern iframe or simple visual mapping mockup */}
                 <div style={{ background: "rgba(255,255,255,0.02)", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", border: "1px dashed var(--border-color)", borderRadius: "8px" }}>
                   <span style={{ color: "var(--accent-primary)", fontSize: "0.9rem", fontWeight: "600" }}>
-                    [ Dwarka Sector 5 Map Coordinates ]
+                    [ Pura Mufti Sector 5 Map Coordinates ]
                   </span>
                 </div>
               </div>

@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="footer-brand">
           <h3>HARI OM <span>ENTERPRISES</span></h3>
           <p>
-            Your leading electronics destination in India. Specializing in high-quality, 
-            energy-efficient household appliances like Smart TVs, Air Conditioners, double-door Refrigertators, 
+            Your leading electronics destination in India. Specializing in high-quality,
+            energy-efficient household appliances like Smart TVs, Air Conditioners, double-door Refrigertators,
             cozy Room Heaters, and smart LED Bulbs. Experience unmatched service and genuine brand warranty.
           </p>
         </div>
@@ -38,13 +38,13 @@ export default function Footer() {
         <div className="footer-contact">
           <h4>Contact Shop</h4>
           <p>
-            <strong>📍 Address:</strong> Main Market Road, Sector 5, Dwarka, New Delhi, Delhi 110075, India
+            <strong>📍 Address:</strong> Nayaganj, Manauri Rd Pura Mufti, Prayagraj, Uttar Pradesh 212208, India
           </p>
           <p>
-            <strong>📞 Phone:</strong> +91 98765 43210, +91 011 2345 6789
+            <strong>📞 Phone:</strong> +91 82991 74561,
           </p>
           <p>
-            <strong>✉️ Email:</strong> sales@hariomenterprises.in
+            <strong>✉️ Email:</strong> ashishssingh143@gmail.com
           </p>
           <p>
             <strong>⏰ Hours:</strong> Mon - Sun: 10:00 AM - 9:00 PM

@@ -2,15 +2,15 @@ import ProductCarousel from "./components/ProductCarousel";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Hari Om Enterprises | Best Electronics Shop in Dwarka, New Delhi",
-  description: "Shop premium household electronics at Hari Om Enterprises, Dwarka. Authorized dealer of Split AC, Smart LED TV, Inverter Refrigerator, Room Heaters, and energy-saving LED Bulbs in India. Best price guarantee and authentic brand warranty.",
-  keywords: ["electronics shop Delhi", "AC dealer Dwarka", "smart TV online India", "refrigerator shop Delhi", "room heater Dwarka", "LED bulb wholesale India", "household appliances Delhi"],
+  title: "Hari Om Enterprises | Best Electronics Shop in Pura Mufti, Prayagraj",
+  description: "Shop premium household electronics at Hari Om Enterprises, Pura Mufti. Authorized dealer of Split AC, Smart LED TV, Inverter Refrigerator, Room Heaters, and energy-saving LED Bulbs in India. Best price guarantee and authentic brand warranty.",
+  keywords: ["electronics shop Uttar Pradesh", "AC dealer Pura Mufti", "smart TV online India", "refrigerator shop Uttar Pradesh", "room heater Pura Mufti", "LED bulb wholesale India", "household appliances Uttar Pradesh"],
   alternates: {
     canonical: "https://hariomenterprises.in",
   },
   openGraph: {
-    title: "Hari Om Enterprises | Best Electronics Shop in Delhi NCR",
-    description: "Shop energy-saving ACs, Ultra HD TVs, convertible Refrigerators, Room Heaters, and LED bulbs at Dwarka's premium electronics showroom.",
+    title: "Hari Om Enterprises | Best Electronics Shop in Uttar Pradesh NCR",
+    description: "Shop energy-saving ACs, Ultra HD TVs, convertible Refrigerators, Room Heaters, and LED bulbs at Pura Mufti's premium electronics showroom.",
     url: "https://hariomenterprises.in",
     siteName: "Hari Om Enterprises",
     locale: "en_IN",
@@ -31,10 +31,10 @@ export default function Home() {
     "priceRange": "₹₹",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Main Market Road, Sector 5, Dwarka",
-      "addressLocality": "New Delhi",
-      "addressRegion": "Delhi",
-      "postalCode": "110075",
+      "streetAddress": "Nayaganj, Manauri Rd Pura Mufti",
+      "addressLocality": "Prayagraj",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "212208",
       "addressCountry": "IN"
     },
     "geo": {
@@ -69,10 +69,10 @@ export default function Home() {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Do you provide installation services for Air Conditioners (AC) in Delhi NCR?",
+        "name": "Do you provide installation services for Air Conditioners (AC) in Uttar Pradesh NCR?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Hari Om Enterprises provides professional installation support for all AC units purchased from our store. Our certified technicians serve New Delhi, Gurugram, Noida, and Faridabad."
+          "text": "Yes, Hari Om Enterprises provides professional installation support for all AC units purchased from our store. Our certified technicians serve Prayagraj, Gurugram, Noida, and Faridabad."
         }
       },
       {
@@ -88,7 +88,7 @@ export default function Home() {
         "name": "Do you deliver home appliances across India?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We offer free home delivery within Dwarka and West Delhi regions. For other regions in NCR and across India, we arrange safe logistics shipment at nominal delivery charges."
+          "text": "We offer free home delivery within Pura Mufti and West Uttar Pradesh regions. For other regions in NCR and across India, we arrange safe logistics shipment at nominal delivery charges."
         }
       },
       {
@@ -118,11 +118,11 @@ export default function Home() {
       <section className="hero" aria-label="Welcome Banner">
         <div className="hero-container">
           <div className="hero-content">
-            <span className="hero-badge">Dwarka's No. 1 Electronics Showroom</span>
+            <span className="hero-badge">Pura Mufti's No. 1 Electronics Showroom</span>
             <h1>Premium Electronics & Household Appliances in India</h1>
             <p>
-              Elevate your home comfort with **Hari Om Enterprises**. Discover state-of-the-art 
-              5-Star inverter Air Conditioners, bezel-less Smart TVs, smart double-door Refrigerators, 
+              Elevate your home comfort with **Hari Om Enterprises**. Discover state-of-the-art
+              5-Star inverter Air Conditioners, bezel-less Smart TVs, smart double-door Refrigerators,
               safe convection Room Heaters, and energy-saving LED Bulbs from leading international brands.
             </p>
             <div className="hero-ctas">
@@ -153,7 +153,7 @@ export default function Home() {
         <div className="section-header">
           <h2>Featured Products</h2>
           <p>
-            Explore our curated selection of top-selling electronics. All models are equipped 
+            Explore our curated selection of top-selling electronics. All models are equipped
             with energy-efficiency indicators designed to lower electricity consumption in Indian homes.
           </p>
         </div>
@@ -183,7 +183,7 @@ export default function Home() {
             <div className="feature-card">
               <div className="feature-icon">⚡</div>
               <h3>Express Delivery & Install</h3>
-              <p>Enjoy same-day delivery inside Dwarka and expert installation support from certified appliance technicians.</p>
+              <p>Enjoy same-day delivery inside Pura Mufti and expert installation support from certified appliance technicians.</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">🤝</div>
@@ -198,7 +198,7 @@ export default function Home() {
       <section id="reviews" className="section" aria-label="Customer Reviews">
         <div className="section-header">
           <h2>What Our Customers Say</h2>
-          <p>Read real experiences from homeowners and businesses who trust us for their electronics needs in Delhi.</p>
+          <p>Read real experiences from homeowners and businesses who trust us for their electronics needs in Uttar Pradesh.</p>
         </div>
         <div className="section-container">
           <div className="testimonials-grid">
@@ -211,7 +211,7 @@ export default function Home() {
                 <div className="user-avatar">RK</div>
                 <div className="user-info">
                   <h4>Rajesh Kumar</h4>
-                  <p>Dwarka, New Delhi</p>
+                  <p>Pura Mufti, Prayagraj</p>
                 </div>
               </div>
             </div>
@@ -225,7 +225,7 @@ export default function Home() {
                 <div className="user-avatar">AS</div>
                 <div className="user-info">
                   <h4>Anjali Sharma</h4>
-                  <p>Janakpuri, Delhi</p>
+                  <p>Janakpuri, Uttar Pradesh</p>
                 </div>
               </div>
             </div>
@@ -258,15 +258,15 @@ export default function Home() {
             <details className="faq-item">
               <summary className="faq-question">Do you provide installation services for Air Conditioners (AC)?</summary>
               <p className="faq-answer">
-                Yes, Hari Om Enterprises provides professional installation support for all AC units purchased from our store. 
-                Our certified technicians service New Delhi, Gurugram, Noida, and Faridabad areas.
+                Yes, Hari Om Enterprises provides professional installation support for all AC units purchased from our store.
+                Our certified technicians service Prayagraj, Gurugram, Noida, and Faridabad areas.
               </p>
             </details>
 
             <details className="faq-item">
               <summary className="faq-question">Are all products covered under official manufacturer warranty?</summary>
               <p className="faq-answer">
-                Absolutely! We only sell 100% genuine and authorized brand products. Every appliance like TV, Fridge, or AC 
+                Absolutely! We only sell 100% genuine and authorized brand products. Every appliance like TV, Fridge, or AC
                 comes with an official brand warranty card and retail tax invoice to ensure smooth service.
               </p>
             </details>
@@ -274,7 +274,7 @@ export default function Home() {
             <details className="faq-item">
               <summary className="faq-question">Do you deliver home appliances across India?</summary>
               <p className="faq-answer">
-                We offer free home delivery within Dwarka and West Delhi regions. For other regions in NCR and across India, 
+                We offer free home delivery within Pura Mufti and West Uttar Pradesh regions. For other regions in NCR and across India,
                 we arrange safe logistics shipment at nominal delivery charges.
               </p>
             </details>
@@ -282,7 +282,7 @@ export default function Home() {
             <details className="faq-item">
               <summary className="faq-question">Do you offer EMI or financing plans for high-value appliances?</summary>
               <p className="faq-answer">
-                Yes, we partner with Bajaj Finserv, HDFC Bank, and ICICI Bank to offer No-Cost EMI and credit card financing 
+                Yes, we partner with Bajaj Finserv, HDFC Bank, and ICICI Bank to offer No-Cost EMI and credit card financing
                 options on LED TVs, Air Conditioners, and Refrigerators.
               </p>
             </details>
