@@ -1,5 +1,6 @@
 import ProductCarousel from "./components/ProductCarousel";
 import Link from "next/link";
+import ApplianceTicker from "./components/ApplianceTicker";
 
 export const metadata = {
   title: "हरि ओम एंटरप्राइजेस | पूरा मुफ्ती, प्रयागराज में बेस्ट इलेक्ट्रॉनिक्स शोरूम",
@@ -147,6 +148,17 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Interactive Appliance Scrolling Ticker */}
+      <section className="section" style={{ paddingBottom: "0px", paddingTop: "40px" }} aria-label="उत्पाद गैलरी और हॉट-सेलिंग ऑफर्स">
+        <div className="section-header" style={{ marginBottom: "20px" }}>
+          <h2>उत्पाद गैलरी और लाइव डील्स</h2>
+          <p>
+            नीचे दिए गए किसी भी उपकरण पर क्लिक करें और वर्तमान सीजन के सबसे हॉट-सेलिंग (Hot-selling) उत्पाद का सुझाव और विशेष डिस्काउंट ऑफर देखें।
+          </p>
+        </div>
+        <ApplianceTicker />
       </section>
 
       {/* Products Carousel Section */}
