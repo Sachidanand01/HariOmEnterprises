@@ -2,18 +2,18 @@ import ProductCarousel from "./components/ProductCarousel";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Hari Om Enterprises | Best Electronics Shop in Pura Mufti, Prayagraj",
-  description: "Shop premium household electronics at Hari Om Enterprises, Pura Mufti. Authorized dealer of Split AC, Smart LED TV, Inverter Refrigerator, Room Heaters, and energy-saving LED Bulbs in India. Best price guarantee and authentic brand warranty.",
-  keywords: ["electronics shop Uttar Pradesh", "AC dealer Pura Mufti", "smart TV online India", "refrigerator shop Uttar Pradesh", "room heater Pura Mufti", "LED bulb wholesale India", "household appliances Uttar Pradesh"],
+  title: "हरि ओम एंटरप्राइजेस | पूरा मुफ्ती, प्रयागराज में बेस्ट इलेक्ट्रॉनिक्स शोरूम",
+  description: "पूरा मुफ्ती, प्रयागराज में प्रीमियम घरेलू इलेक्ट्रॉनिक्स की खरीदारी करें। वोल्टएयर एसी, एस्ट्राव्यू स्मार्ट टीवी, फ्रॉस्टगार्ड फ्रिज, एयरोवॉर्म रूम हीटर और ऊर्जा-बचत करने वाले एलईडी बल्बों के अधिकृत डीलर। सबसे कम दाम और असली वारंटी।",
+  keywords: ["इलेक्ट्रॉनिक्स दुकान प्रयागराज", "एसी डीलर पूरा मुफ्ती", "स्मार्ट टीवी ऑनलाइन यूपी", "फ्रिज शोरूम प्रयागराज", "रूम हीटर प्रयागराज", "एलईडी बल्ब थोक भारत", "घरेलू उपकरण प्रयागराज"],
   alternates: {
     canonical: "https://hariomenterprises.in",
   },
   openGraph: {
-    title: "Hari Om Enterprises | Best Electronics Shop in Uttar Pradesh NCR",
-    description: "Shop energy-saving ACs, Ultra HD TVs, convertible Refrigerators, Room Heaters, and LED bulbs at Pura Mufti's premium electronics showroom.",
+    title: "हरि ओम एंटरप्राइजेस | प्रयागराज, उत्तर प्रदेश में बेस्ट इलेक्ट्रॉनिक्स शोरूम",
+    description: "पूरा मुफ्ती में स्प्लिट एसी, स्मार्ट टीवी, डबल डोर फ्रिज, रूम हीटर और एलईडी बल्ब पर सर्वोत्तम डील्स और वारंटी पाएं।",
     url: "https://hariomenterprises.in",
-    siteName: "Hari Om Enterprises",
-    locale: "en_IN",
+    siteName: "हरि ओम एंटरप्राइजेस",
+    locale: "hi_IN",
     type: "website",
   }
 };
@@ -23,7 +23,7 @@ export default function Home() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Hari Om Enterprises",
+    "name": "हरि ओम एंटरप्राइजेस (Hari Om Enterprises)",
     "image": "https://hariomenterprises.in/images/ac_unit.png",
     "@id": "https://hariomenterprises.in/#store",
     "url": "https://hariomenterprises.in",
@@ -39,8 +39,8 @@ export default function Home() {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": 28.5921,
-      "longitude": 77.0628
+      "latitude": 25.4358,
+      "longitude": 81.8463
     },
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
@@ -62,41 +62,41 @@ export default function Home() {
     ]
   };
 
-  // FAQPage structured schema markup
+  // FAQPage structured schema markup in Hindi for localized search engine queries
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Do you provide installation services for Air Conditioners (AC) in Uttar Pradesh NCR?",
+        "name": "क्या आप प्रयागराज और आस-पास के क्षेत्रों में एयर कंडीशनर (AC) की इंस्टॉलेशन सेवाएं प्रदान करते हैं?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, Hari Om Enterprises provides professional installation support for all AC units purchased from our store. Our certified technicians serve Prayagraj, Gurugram, Noida, and Faridabad."
+          "text": "जी हाँ, हरि ओम एंटरप्राइजेस हमारे स्टोर से खरीदे गए सभी एसी यूनिट्स के लिए पेशेवर इंस्टॉलेशन सहायता प्रदान करता है। हमारे प्रमाणित तकनीशियन प्रयागराज और आस-पास के क्षेत्रों में त्वरित सेवा प्रदान करते हैं।"
         }
       },
       {
         "@type": "Question",
-        "name": "Are the electronics products sold covered under manufacturer warranty?",
+        "name": "क्या बेचे जाने वाले सभी इलेक्ट्रॉनिक्स उत्पाद वारंटी के साथ आते हैं?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Absolutely! We only sell 100% genuine and authorized brand products. Every appliance like TV, Fridge, or AC comes with an official brand warranty card and retail tax invoice."
+          "text": "बिल्कुल! हम केवल 100% असली और ब्रांड-अधिकृत उत्पाद ही बेचते हैं। टीवी, फ्रिज या एसी जैसे प्रत्येक उपकरण के साथ आपको आधिकारिक ब्रांड वारंटी कार्ड और पक्का टैक्स इनवॉइस मिलता है।"
         }
       },
       {
         "@type": "Question",
-        "name": "Do you deliver home appliances across India?",
+        "name": "क्या आप घरेलू उपकरणों की होम डिलीवरी प्रदान करते हैं?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "We offer free home delivery within Pura Mufti and West Uttar Pradesh regions. For other regions in NCR and across India, we arrange safe logistics shipment at nominal delivery charges."
+          "text": "हम पूरा मुफ्ती और प्रयागराज के नजदीकी क्षेत्रों में मुफ्त होम डिलीवरी प्रदान करते हैं। अन्य दूरदराज के क्षेत्रों के लिए हम मामूली डिलीवरी शुल्क पर सुरक्षित लॉजिस्टिक्स शिपमेंट की व्यवस्था करते हैं।"
         }
       },
       {
         "@type": "Question",
-        "name": "Do you offer EMI or financing plans for high-value appliances?",
+        "name": "क्या आपके स्टोर पर फाइनेंस या नो-कॉस्ट EMI की सुविधा उपलब्ध है?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, we partner with Bajaj Finserv, HDFC Bank, and ICICI Bank to offer No-Cost EMI and credit card financing plans on LED TVs, Air Conditioners, and Refrigerators."
+          "text": "हाँ, हम बजाज फिनसर्व, एचडीएफसी बैंक और आईसीआईसीआई बैंक के साथ साझेदारी में एलईडी टीवी, एयर कंडीशनर और रेफ्रिजरेटर पर नो-कॉस्ट ईएमआई (No-Cost EMI) और आसान फाइनेंस योजनाएं प्रदान करते हैं।"
         }
       }
     ]
@@ -115,33 +115,34 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="hero" aria-label="Welcome Banner">
+      <section className="hero" aria-label="मुख्य बैनर">
         <div className="hero-container">
           <div className="hero-content">
-            <span className="hero-badge">Pura Mufti's No. 1 Electronics Showroom</span>
-            <h1>Premium Electronics & Household Appliances in India</h1>
+            <span className="hero-badge">पूरा मुफ्ती का नंबर 1 इलेक्ट्रॉनिक्स शोरूम</span>
+            <h1>प्रीमियम इलेक्ट्रॉनिक्स और घरेलू उपकरण</h1>
             <p>
-              Elevate your home comfort with **Hari Om Enterprises**. Discover state-of-the-art
-              5-Star inverter Air Conditioners, bezel-less Smart TVs, smart double-door Refrigerators,
-              safe convection Room Heaters, and energy-saving LED Bulbs from leading international brands.
+              <strong>हरि ओम एंटरप्राइजेस</strong> के साथ अपने घर को और भी आधुनिक और आरामदायक बनाएं। 
+              अग्रणी अंतरराष्ट्रीय ब्रांडों से ऊर्जा-बचत करने वाले 5-स्टार स्प्लिट एसी, 
+              बेज़ेल-लेस स्मार्ट टीवी, डबल-डोर रेफ्रिजरेटर, सुरक्षित रूम हीटर और स्मार्ट एलईडी बल्ब 
+              सर्वोत्तम मूल्यों पर प्राप्त करें।
             </p>
             <div className="hero-ctas">
-              <Link href="#products" className="btn btn-primary">Browse Catalog</Link>
-              <a href="tel:+918299174561" className="btn btn-secondary">Call Now</a>
+              <Link href="#products" className="btn btn-primary">उत्पाद देखें</Link>
+              <a href="tel:+918299174561" className="btn btn-secondary">अभी कॉल करें</a>
             </div>
 
             <div className="hero-stats">
               <div className="stat-item">
                 <h3>15K+</h3>
-                <p>Happy Customers</p>
+                <p>खुश ग्राहक</p>
               </div>
               <div className="stat-item">
                 <h3>100%</h3>
-                <p>Genuine Brand Warranty</p>
+                <p>असली ब्रांड वारंटी</p>
               </div>
               <div className="stat-item">
-                <h3>15+ Yrs</h3>
-                <p>Trusted Store Presence</p>
+                <h3>15+ वर्ष</h3>
+                <p>भरोसेमंद स्टोर उपस्थिति</p>
               </div>
             </div>
           </div>
@@ -149,12 +150,12 @@ export default function Home() {
       </section>
 
       {/* Products Carousel Section */}
-      <section id="products" className="section" aria-label="Featured Products Showroom">
+      <section id="products" className="section" aria-label="मुख्य उत्पाद शोरूम">
         <div className="section-header">
-          <h2>Featured Products</h2>
+          <h2>हमारे मुख्य उत्पाद</h2>
           <p>
-            Explore our curated selection of top-selling electronics. All models are equipped
-            with energy-efficiency indicators designed to lower electricity consumption in Indian homes.
+            हमारे सबसे लोकप्रिय और ऊर्जा-कुशल उपकरणों की विस्तृत श्रृंखला देखें। 
+            ये सभी मॉडल बिजली की खपत को कम करने और आपके पैसे बचाने के लिए डिज़ाइन किए गए हैं।
           </p>
         </div>
         <div className="section-container">
@@ -163,55 +164,55 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="why-us" className="section section-alt" aria-label="Store Benefits">
+      <section id="why-us" className="section section-alt" aria-label="स्टोर के लाभ">
         <div className="section-header">
-          <h2>Why Buy From Hari Om Enterprises?</h2>
-          <p>We pride ourselves on offering outstanding service and building lifelong relationships with customers across India.</p>
+          <h2>हरि ओम एंटरप्राइजेस से ही क्यों खरीदें?</h2>
+          <p>हम गुणवत्तापूर्ण उत्पादों, बेहतरीन सर्विस और ग्राहकों के साथ विश्वास का रिश्ता बनाने के लिए प्रतिबद्ध हैं।</p>
         </div>
         <div className="section-container">
           <div className="features-grid">
             <div className="feature-card">
               <div className="feature-icon">🛡️</div>
-              <h3>100% Genuine Products</h3>
-              <p>We are authorized retail dealers for leading global electronics manufacturers, guaranteeing authentic goods and retail tax invoices.</p>
+              <h3>100% असली ब्रांड उत्पाद</h3>
+              <p>हम प्रमुख इलेक्ट्रॉनिक्स ब्रांडों के अधिकृत रिटेल डीलर हैं, जो पक्के टैक्स इनवॉइस और ब्रांड वारंटी की गारंटी देते हैं।</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">💰</div>
-              <h3>Best Local Price Guarantee</h3>
-              <p>Get exclusive in-store deals and financing plans that match or beat major online retailers and local shops in NCR.</p>
+              <h3>सर्वोत्तम स्थानीय मूल्य</h3>
+              <p>हम प्रमुख ऑनलाइन स्टोरों और स्थानीय बाजारों से बेहतर मूल्य और विशेष इन-स्टोर डिस्काउंट प्रदान करते हैं।</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">⚡</div>
-              <h3>Express Delivery & Install</h3>
-              <p>Enjoy same-day delivery inside Pura Mufti and expert installation support from certified appliance technicians.</p>
+              <h3>त्वरित डिलीवरी व इंस्टॉलेशन</h3>
+              <p>पूरा मुफ्ती और प्रयागराज क्षेत्र में उसी दिन एक्सप्रेस होम डिलीवरी और कुशल तकनीशियनों द्वारा इंस्टॉलेशन सहायता।</p>
             </div>
             <div className="feature-card">
               <div className="feature-icon">🤝</div>
-              <h3>Excellent After-Sales Care</h3>
-              <p>Need support or servicing? Our team helps fast-track your warranty tickets with manufacturers directly.</p>
+              <h3>भरोसेमंद ग्राहक सहायता</h3>
+              <p>बिक्री के बाद भी हम आपकी पूरी सहायता करते हैं और निर्माता कंपनियों से आपकी वारंटी टिकटों को जल्दी सुलझाते हैं।</p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Customer Testimonials Section */}
-      <section id="reviews" className="section" aria-label="Customer Reviews">
+      <section id="reviews" className="section" aria-label="ग्राहकों की समीक्षा">
         <div className="section-header">
-          <h2>What Our Customers Say</h2>
-          <p>Read real experiences from homeowners and businesses who trust us for their electronics needs in Uttar Pradesh.</p>
+          <h2>हमारे ग्राहक क्या कहते हैं</h2>
+          <p>पूरा मुफ्ती और प्रयागराज के उन परिवारों के अनुभव पढ़ें जिन्होंने अपने घर के उपकरणों के लिए हम पर भरोसा किया।</p>
         </div>
         <div className="section-container">
           <div className="testimonials-grid">
             <div className="testimonial-card">
               <div className="testimonial-rating">★★★★★</div>
               <p className="testimonial-text">
-                "Bought a VoltAir 1.5 Ton AC for my apartment in Sector 10. The team guided me to a 5-star unit which saved 30% on energy bills. Installation was finished on the same evening. Outstanding customer support!"
+                "मैंने यहाँ से वोल्टएयर का 1.5 टन एसी खरीदा था। स्टोर स्टाफ ने मुझे 5-स्टार मॉडल लेने की सलाह दी जिससे मेरी बिजली का बिल काफी कम हो गया है। इंस्टॉलेशन भी उसी दिन हो गया। बहुत बढ़िया सर्विस!"
               </p>
               <div className="testimonial-user">
-                <div className="user-avatar">RK</div>
+                <div className="user-avatar">राज</div>
                 <div className="user-info">
-                  <h4>Rajesh Kumar</h4>
-                  <p>Pura Mufti, Prayagraj</p>
+                  <h4>राजेश कुमार</h4>
+                  <p>पूरा मुफ्ती, प्रयागराज</p>
                 </div>
               </div>
             </div>
@@ -219,13 +220,13 @@ export default function Home() {
             <div className="testimonial-card">
               <div className="testimonial-rating">★★★★★</div>
               <p className="testimonial-text">
-                "Perfect experience purchasing a double-door refrigerator. Got a great discount compared to online sites and zero cost EMI via Bajaj Finserv. Recommended electronics store!"
+                "डबल-डोर रेफ्रिजरेटर खरीदने का शानदार अनुभव रहा। ऑनलाइन साइट्स की तुलना में बेहतर छूट मिली और बजाज फिनसर्व के जरिए आसान किश्तों (Zero Cost EMI) पर फ्रिज मिल गया।"
               </p>
               <div className="testimonial-user">
-                <div className="user-avatar">AS</div>
+                <div className="user-avatar">अंज</div>
                 <div className="user-info">
-                  <h4>Anjali Sharma</h4>
-                  <p>Janakpuri, Uttar Pradesh</p>
+                  <h4>अंजलि शर्मा</h4>
+                  <p>झूंसी, प्रयागराज</p>
                 </div>
               </div>
             </div>
@@ -233,13 +234,13 @@ export default function Home() {
             <div className="testimonial-card">
               <div className="testimonial-rating">★★★★★</div>
               <p className="testimonial-text">
-                "Excellent collection of LED smart lights and smart TVs. We bought a 55-inch OLED TV and multiple WiFi smart bulbs. Their prices are very competitive and sales staff are highly knowledgeable."
+                "एलईडी लाइट्स और 55-इंच स्मार्ट टीवी का बेहतरीन कलेक्शन है। स्टाफ को तकनीकी जानकारी अच्छी है और कीमतें भी बहुत वाजिब हैं। इलेक्ट्रॉनिक्स के लिए बेस्ट दुकान!"
               </p>
               <div className="testimonial-user">
-                <div className="user-avatar">VP</div>
+                <div className="user-avatar">विक</div>
                 <div className="user-info">
-                  <h4>Vikram Patel</h4>
-                  <p>Gurugram, Haryana</p>
+                  <h4>विक्रम पटेल</h4>
+                  <p>सिविल लाइन्स, प्रयागराज</p>
                 </div>
               </div>
             </div>
@@ -248,42 +249,42 @@ export default function Home() {
       </section>
 
       {/* FAQ Accordion Section */}
-      <section id="faq" className="section section-alt" aria-label="Frequently Asked Questions">
+      <section id="faq" className="section section-alt" aria-label="अक्सर पूछे जाने वाले प्रश्न">
         <div className="section-header">
-          <h2>Frequently Asked Questions</h2>
-          <p>Have questions? Find quick answers regarding store policies, warranties, delivery, and installation services.</p>
+          <h2>अक्सर पूछे जाने वाले प्रश्न</h2>
+          <p>स्टोर नीतियों, वारंटी, होम डिलीवरी और इंस्टॉलेशन सेवाओं के बारे में त्वरित उत्तर प्राप्त करें।</p>
         </div>
         <div className="section-container">
           <div className="faq-list">
             <details className="faq-item">
-              <summary className="faq-question">Do you provide installation services for Air Conditioners (AC)?</summary>
+              <summary className="faq-question">क्या आप एसी (AC) की इंस्टॉलेशन सेवाएं प्रदान करते हैं?</summary>
               <p className="faq-answer">
-                Yes, Hari Om Enterprises provides professional installation support for all AC units purchased from our store.
-                Our certified technicians service Prayagraj, Gurugram, Noida, and Faridabad areas.
+                हाँ, हरि ओम एंटरप्राइजेस हमारे स्टोर से खरीदे गए सभी एयर कंडीशनर के लिए व्यावसायिक इंस्टॉलेशन सेवाएं प्रदान करता है। 
+                प्रमाणित तकनीशियन प्रयागराज और नजदीकी क्षेत्रों में त्वरित सहायता प्रदान करते हैं।
               </p>
             </details>
 
             <details className="faq-item">
-              <summary className="faq-question">Are all products covered under official manufacturer warranty?</summary>
+              <summary className="faq-question">क्या बेचे जाने वाले सभी उत्पाद आधिकारिक ब्रांड वारंटी के साथ आते हैं?</summary>
               <p className="faq-answer">
-                Absolutely! We only sell 100% genuine and authorized brand products. Every appliance like TV, Fridge, or AC
-                comes with an official brand warranty card and retail tax invoice to ensure smooth service.
+                बिल्कुल! हम केवल 100% असली उत्पाद बेचते हैं। टीवी, फ्रिज, एसी या हीटर जैसे हर उपकरण के साथ आपको ब्रांड वारंटी कार्ड 
+                और असली टैक्स इनवॉइस प्रदान किया जाता है ताकि भविष्य में कोई समस्या न हो।
               </p>
             </details>
 
             <details className="faq-item">
-              <summary className="faq-question">Do you deliver home appliances across India?</summary>
+              <summary className="faq-question">आप किन क्षेत्रों में डिलीवरी की सुविधा प्रदान करते हैं?</summary>
               <p className="faq-answer">
-                We offer free home delivery within Pura Mufti and West Uttar Pradesh regions. For other regions in NCR and across India,
-                we arrange safe logistics shipment at nominal delivery charges.
+                हम पूरा मुफ्ती, मनौरी रोड और प्रयागराज के स्थानीय क्षेत्रों में त्वरित होम डिलीवरी प्रदान करते हैं। 
+                अन्य नजदीकी जिलों के लिए भी सुरक्षित परिवहन व्यवस्था उपलब्ध है।
               </p>
             </details>
 
             <details className="faq-item">
-              <summary className="faq-question">Do you offer EMI or financing plans for high-value appliances?</summary>
+              <summary className="faq-question">क्या आपके स्टोर पर किश्तों (EMI) पर सामान उपलब्ध है?</summary>
               <p className="faq-answer">
-                Yes, we partner with Bajaj Finserv, HDFC Bank, and ICICI Bank to offer No-Cost EMI and credit card financing
-                options on LED TVs, Air Conditioners, and Refrigerators.
+                जी हाँ, हम बजाज फिनसर्व, एचडीएफसी बैंक और आईसीआईसीआई बैंक क्रेडिट कार्ड के माध्यम से नो-कॉस्ट ईएमआई (No-Cost EMI) 
+                और आसान मासिक किश्तों पर प्रमुख घरेलू उपकरण उपलब्ध कराते हैं।
               </p>
             </details>
           </div>

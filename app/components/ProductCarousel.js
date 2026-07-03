@@ -6,51 +6,51 @@ import Image from "next/image";
 const PRODUCTS = [
   {
     id: "ac",
-    tag: "Air Conditioner",
-    title: "VoltAir 1.5 Ton 5-Star Inverter Split AC",
-    description: "Beat the Indian summer with the ultra-efficient VoltAir Split AC. Engineered with advanced inverter technology, dual-rotary compressor, and 100% copper condenser. Offers rapid cooling even at 52°C ambient temperature while ensuring maximum electricity savings.",
+    tag: "एयर कंडीशनर (AC)",
+    title: "वोल्टएयर 1.5 टन 5-स्टार इन्वर्टर स्प्लिट एसी",
+    description: "भीषण भारतीय गर्मियों को मात देने के लिए वोल्टएयर स्प्लिट एसी एक बेहतरीन विकल्प है। यह उन्नत इन्वर्टर तकनीक, डुअल-रोटरी कंप्रेसर और 100% तांबे के कंडेनसर के साथ आता है। यह 52°C तापमान में भी त्वरित कूलिंग और बिजली की भारी बचत सुनिश्चित करता है।",
     image: "/images/ac_unit.png",
-    specs: ["5-Star Energy Rating", "100% Copper Condenser", "Smart WiFi Enabled", "10-Year Warranty"],
+    specs: ["5-स्टार एनर्जी रेटिंग", "100% कॉपर कंडेनसर", "स्मार्ट वाईफाई इनेबल्ड", "10 साल की वारंटी"],
     price: "₹38,490",
     originalPrice: "₹52,990",
   },
   {
     id: "tv",
-    tag: "Smart OLED TV",
-    title: "AstraView 55\" Ultra HD 4K Smart OLED TV",
-    description: "Elevate your home entertainment with AstraView's bezel-less design. Featuring a true 4K OLED display, Dolby Vision IQ, Dolby Atmos surround audio, and built-in streaming apps. Perfect for sports, movies, and console gaming in modern Indian living rooms.",
+    tag: "स्मार्ट ओएलईडी टीवी (Smart TV)",
+    title: "एस्ट्राव्यू 55\" अल्ट्रा एचडी 4K स्मार्ट ओएलईडी टीवी",
+    description: "एस्ट्राव्यू टीवी के बेज़ेल-लेस डिज़ाइन के साथ मनोरंजन का अनूठा अनुभव पाएं। इसमें 4K OLED डिस्प्ले, डॉल्बी विजन आईक्यू, डॉल्बी एटमॉस सराउंड ऑडियो और इन-बिल्ट ऐप्स मिलते हैं। आधुनिक लिविंग रूम के लिए यह एकदम सही है।",
     image: "/images/smart_tv.png",
-    specs: ["True 4K OLED Screen", "Dolby Vision & Atmos", "Google TV OS", "3 x HDMI 2.1 Ports"],
+    specs: ["अल्ट्रा 4K OLED स्क्रीन", "डॉल्बी विजन और एटमॉस", "गूगल टीवी ओएस", "3 x एचडीएमआई 2.1 पोर्ट"],
     price: "₹89,999",
     originalPrice: "₹1,29,990",
   },
   {
     id: "fridge",
-    tag: "Refrigerator",
-    title: "FrostGuard 350L Double Door Inverter Refrigerator",
-    description: "Keep your food fresh and drinks chilled with FrostGuard's intelligent dual-fan technology. Equipped with a digital inverter compressor, auto-defrost functionality, convertible freezer storage, and humidity control drawers suited for Indian kitchens.",
+    tag: "रेफ्रिजरेटर (Fridge)",
+    title: "फ्रॉस्टगार्ड 350 लीटर डबल डोर इन्वर्टर रेफ्रिजरेटर",
+    description: "फ्रॉस्टगार्ड की इंटेलिजेंट डुअल-फैन तकनीक से भोजन को ताज़ा और पेय पदार्थों को ठंडा रखें। डिजिटल इन्वर्टर कंप्रेसर, ऑटो-डीफ्रॉस्ट सुविधा, और भारतीय रसोई के अनुकूल कनवर्टिबल 5-इन-1 स्टोरेज की सुविधा उपलब्ध है।",
     image: "/images/refrigerator.png",
-    specs: ["350 Liters Capacity", "Inverter Compressor", "Convertible 5-in-1", "3-Star Energy Rating"],
+    specs: ["350 लीटर क्षमता", "इन्वर्टर कंप्रेसर", "कनवर्टिबल 5-इन-1", "3-स्टार एनर्जी रेटिंग"],
     price: "₹32,990",
     originalPrice: "₹45,990",
   },
   {
     id: "heater",
-    tag: "Room Heater",
-    title: "AeroWarm 2000W PTC Tower Room Heater",
-    description: "Stay warm during cold winter nights with AeroWarm's ceramic heating technology. Features wide-angle auto oscillation, remote control operation, adjustable digital thermostat, and double overheat safety protection with tip-over auto-cut off.",
+    tag: "रूम हीटर (Heater)",
+    title: "एयरोवॉर्म 2000W पीटीसी टॉवर रूम हीटर",
+    description: "सर्दियों की ठंडी रातों में एयरोवॉर्म की सिरेमिक हीटिंग तकनीक से गर्म रहें। इसमें वाइड-एंगल ऑटो ऑसिलेशन, रिमोट कंट्रोल ऑपरेशन, एडजस्टेबल डिजिटल थर्मोस्टेट और डबल ओवरहीट सेफ्टी प्रोटेक्शन की सुविधा है।",
     image: "/images/room_heater.png",
-    specs: ["2000W Ceramic PTC", "Wide Angle Oscillation", "Remote Control", "Overheat Safety Shut-off"],
+    specs: ["2000W सिरेमिक पीटीसी", "वाइड एंगल ऑसिलेशन", "रिमोट कंट्रोल", "ओवरहीट ऑटो-कट सेफ्टी"],
     price: "₹5,490",
     originalPrice: "₹7,990",
   },
   {
     id: "led",
-    tag: "LED Lighting",
-    title: "LuminaSmart 12W Wi-Fi Color LED Bulb",
-    description: "Light up your smart home with LuminaSmart LED bulbs. Offers 16 million colors, voice control compatibility with Alexa and Google Assistant, custom lighting schedules, and up to 85% energy savings compared to traditional incandescent lighting.",
+    tag: "एलईडी बल्ब (LED Bulb)",
+    title: "ल्यूमिनास्मार्ट 12W वाई-फाई स्मार्ट एलईडी बल्ब",
+    description: "ल्यूमिनास्मार्ट एलईडी बल्ब से अपने घर को स्मार्ट बनाएं। यह 1.6 करोड़ रंगों, एलेक्सा और गूगल असिस्टेंट के साथ वॉयस कंट्रोल कम्पेटिबिलिटी, कस्टम शेड्यूलिंग और 85% तक बिजली की बचत प्रदान करता है।",
     image: "/images/led_bulb.png",
-    specs: ["16 Million RGB Colors", "WiFi App Controlled", "Voice Assistant Sync", "25,000 Hours Lifespan"],
+    specs: ["16 मिलियन आरजीबी रंग", "वाईफाई ऐप कंट्रोल", "वॉयस असिस्टेंट सिंक", "25,000 घंटे लाइफस्पैन"],
     price: "₹699",
     originalPrice: "₹1,499",
   }
@@ -130,7 +130,7 @@ export default function ProductCarousel() {
 
               <div style={{ marginTop: "16px" }}>
                 <a href="tel:+918299174561" className="btn btn-primary">
-                  Call Now
+                  अभी कॉल करें
                 </a>
               </div>
             </div>

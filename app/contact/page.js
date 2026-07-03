@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Contact Us | Hari Om Enterprises - Electronics Store Pura Mufti",
-  description: "Get in touch with Hari Om Enterprises. Visit our Pura Mufti showroom, call us at +91 82991 74561, or view our location map for Air Conditioners, Smart TVs, Refrigerators, Heaters, and LED Bulbs.",
-  keywords: ["contact Hari Om Enterprises", "electronics store phone Uttar Pradesh", "buy AC Pura Mufti", "Hari Om Enterprises location", "Uttar Pradesh electronics dealer list"],
+  title: "संपर्क करें | हरि ओम एंटरप्राइजेस - इलेक्ट्रॉनिक्स स्टोर पूरा मुफ्ती",
+  description: "हरि ओम एंटरप्राइजेस से संपर्क करें। हमारे पूरा मुफ्ती शोरूम का पता, फोन नंबर +91 82991 74561, ईमेल और गूगल मैप लोकेशन देखें। हमारे स्टोर पर आएं और बेस्ट डील्स पाएं।",
+  keywords: ["संपर्क हरि ओम एंटरप्राइजेस", "इलेक्ट्रॉनिक्स दुकान फोन यूपी", "एसी खरीदना है पूरा मुफ्ती", "हरि ओम एंटरप्राइजेस लोकेशन", "प्रयागराज इलेक्ट्रॉनिक्स शोरूम"],
   alternates: {
     canonical: "https://hariomenterprises.in/contact",
   }
@@ -11,7 +11,7 @@ export default function Contact() {
   const contactBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Hari Om Enterprises",
+    "name": "हरि ओम एंटरप्राइजेस (Hari Om Enterprises)",
     "image": "https://hariomenterprises.in/images/ac_unit.png",
     "@id": "https://hariomenterprises.in/#store",
     "url": "https://hariomenterprises.in",
@@ -34,36 +34,36 @@ export default function Contact() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(contactBusinessSchema) }}
       />
 
-      <main className="section" aria-label="Contact Information and Store Location">
+      <main className="section" aria-label="संपर्क जानकारी और स्टोर लोकेशन">
         <div className="section-container">
           <div className="section-header" style={{ marginBottom: "60px" }}>
-            <h2>Contact Us & Directions</h2>
+            <h2>संपर्क करें और दिशा-निर्देश</h2>
             <p>
-              Get in touch with us directly or navigate to our store in Pura Mufti, Prayagraj. 
-              We are open every day of the week to serve you with the best appliance deals.
+              हमसे सीधे फोन पर संपर्क करें या पूरा मुफ्ती, प्रयागराज में हमारे शोरूम पर आएं। 
+              हम आपकी सहायता के लिए सप्ताह के सातों दिन उपलब्ध हैं।
             </p>
           </div>
 
           <div className="contact-layout">
             {/* Contact Details Column */}
             <div className="contact-info-panel">
-              <h2>Store Information</h2>
-              <p>Feel free to visit our showroom in Pura Mufti, Prayagraj. We have direct product demos for all appliances.</p>
+              <h2>स्टोर की जानकारी</h2>
+              <p>पूरा मुफ्ती, प्रयागराज में हमारे शोरूम पर अवश्य पधारें। हमारे पास सभी उपकरणों के लाइव डेमो उपलब्ध हैं।</p>
 
               <address className="contact-details">
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon">📍</div>
                   <div className="contact-detail-text">
-                    <h3>Showroom Address</h3>
-                    <p>Nayaganj, Manauri Rd</p>
-                    <p>Pura Mufti, Prayagraj, Uttar Pradesh 212208, India</p>
+                    <h3>शोरूम का पता</h3>
+                    <p>नयागंज, मनौरी रोड</p>
+                    <p>पूरा मुफ्ती, प्रयागराज, उत्तर प्रदेश 212208, भारत</p>
                   </div>
                 </div>
 
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon">📞</div>
                   <div className="contact-detail-text">
-                    <h3>Phone Numbers</h3>
+                    <h3>फोन नंबर</h3>
                     <p><a href="tel:+918299174561">+91 82991 74561</a></p>
                   </div>
                 </div>
@@ -71,7 +71,7 @@ export default function Contact() {
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon">✉️</div>
                   <div className="contact-detail-text">
-                    <h3>Email Address</h3>
+                    <h3>ईमेल पता</h3>
                     <p><a href="mailto:ashishssingh143@gmail.com">ashishssingh143@gmail.com</a></p>
                   </div>
                 </div>
@@ -79,9 +79,9 @@ export default function Contact() {
                 <div className="contact-detail-item">
                   <div className="contact-detail-icon">⏰</div>
                   <div className="contact-detail-text">
-                    <h3>Business Hours</h3>
-                    <p>Monday - Sunday</p>
-                    <p>10:00 AM - 9:00 PM</p>
+                    <h3>खुलने का समय</h3>
+                    <p>सोमवार - रविवार</p>
+                    <p>सुबह 10:00 बजे - रात 9:00 बजे</p>
                   </div>
                 </div>
               </address>
@@ -97,7 +97,7 @@ export default function Contact() {
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Hari Om Enterprises Location Map"
+                title="हरि ओम एंटरप्राइजेस नक्शा स्थान"
               ></iframe>
             </div>
           </div>
@@ -106,4 +106,3 @@ export default function Contact() {
     </>
   );
 }
-
