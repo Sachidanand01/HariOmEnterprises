@@ -57,7 +57,7 @@ export default function Contact() {
                   <div className="contact-detail-icon">📍</div>
                   <div className="contact-detail-text">
                     <h3>Showroom Address</h3>
-                    <p>Main Market Road, Sector 5</p>
+                    <p>Nayaganj, Manauri Rd</p>
                     <p>Pura Mufti, Prayagraj, Uttar Pradesh 212208, India</p>
                   </div>
                 </div>
@@ -92,12 +92,12 @@ export default function Contact() {
               <div className="contact-map-stub">
                 <p><strong>📍 Hari Om Enterprises Location map</strong></p>
                 <p style={{ fontSize: "0.85rem", color: "var(--text-muted)", margin: "0 0 16px" }}>
-                  Located in the center of Pura Mufti, Uttar Pradesh Sector 5 Market. Near Metro Station.
+                  Located in the center of Pura Mufti, Uttar Pradesh Nayaganj, Manauri Rd.
                 </p>
                 {/* Embed modern iframe or simple visual mapping mockup */}
                 <div style={{ background: "rgba(255,255,255,0.02)", width: "100%", height: "100%", display: "flex", alignItems: "center", justifyContent: "center", border: "1px dashed var(--border-color)", borderRadius: "8px" }}>
                   <span style={{ color: "var(--accent-primary)", fontSize: "0.9rem", fontWeight: "600" }}>
-                    [ Pura Mufti Sector 5 Map Coordinates ]
+                    [ Pura Mufti Nayaganj, Manauri Rd Map Coordinates ]
                   </span>
                 </div>
               </div>
