@@ -90,13 +90,13 @@ export default function Contact() {
             {/* Interactive Map Column */}
             <div className="contact-map-panel" style={{ height: "100%", minHeight: "450px", borderRadius: "16px", overflow: "hidden", border: "1px solid var(--border-color)" }}>
               <iframe
-                src="https://maps.google.com/maps?q=Nayaganj,%20Manauri%20Rd%20Pura%20Mufti,%20Prayagraj,%20Uttar%20Pradesh%20212208&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14406.937441472934!2d81.64732897500133!3d25.480544116811036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399ad352a8c40a67%3A0xb85f9bf3e86c4364!2sHari%20Om%20Enterprises!5e0!3m2!1sen!2sin!4v1783392486922!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "450px", display: "block" }}
                 allowFullScreen=""
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
                 title="हरि ओम एंटरप्राइजेस नक्शा स्थान"
               ></iframe>
             </div>
